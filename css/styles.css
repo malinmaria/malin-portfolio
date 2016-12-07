@@ -64,7 +64,7 @@ figcaption {
 .bg4 {
   background: url('../bg5.jpg') no-repeat center center fixed;
   background-size: cover;
-  /*height: 800px;*/
+  height: 800px;
 }
 
 .jobs h2 {
@@ -75,20 +75,19 @@ figcaption {
 }
 
 .jobscontent ul {
+    display: block;
     position: absolute;
-    width: 200px
+    width: 200px;
+    top: 70px;
 }
 
 .jobs {
-  padding: 0;
   border-radius: 25px;
   position: relative;
   height: 500px;
   width: 350px;
-  margin: 0 auto;
-  /*text-align: center;*/
-  /*margin-left: 40%;*/
-  /*margin-top: 5%;*/
+  top: 150px;
+  left: 550px;
   border-radius: 2px solid white;
   opacity: .8;
   background-color: white;
