@@ -19,8 +19,9 @@ img {
 
 h2, h4 {
   /*position: absolute;*/
-  margin-left: 45%;
+  /*margin-left: 45%;*/
   margin-top:0;
+  text-align: center;
   padding: 15px;
 }
 
@@ -74,6 +75,16 @@ figcaption {
   margin: 50px;
 }
 
+
+.weddingsite img:hover {
+  visibility: hidden;
+}
+.weddingsite:hover {
+  background: rgb(0, 0, 0);
+}
+
+
+
 /*EXPERIENCE*/
 
 .bg4 {
@@ -87,7 +98,7 @@ figcaption {
   height: 50px;
   width: 50px;
   clear: both;
-  left: -70px;
+  left: 85px;
 }
 
 .jobs {
@@ -125,10 +136,47 @@ figcaption {
 p {
   position: relative;
 }
+.connecting {
+  height: 300px;
+  width: 400px;
+  /*margin-left: 525px;*/
+  margin-left: 35%;
+  display: block;
+}
+.c-form {
+  left: 38.5%;
+  width: 320px;
+  margin-top: 10px;
+  position: relative;
+  padding: 20px 0px 40px 10px;
+  background-color: #c7ccd6;
+}
 
+input, label,
+textarea {
+  display: block;
+  color: #5a5c60;
+  width: 300px;
+}
 
-/*ul {
-  position: absolute;
-  margin-top: 7%;
-  margin-left: 42%;
-}*/
+textarea {
+  height: 150px;
+}
+
+#submit {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.linkedin,
+.facebook,
+.github {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin {
+  margin-left: 44%;
+}

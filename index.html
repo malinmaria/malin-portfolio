@@ -30,12 +30,12 @@
       <!-- end home/about me section -->
 
       <!-- portfolio section -->
-      <div id="bg3">
+      <div id="bg3" class="row">
         <h2><a name="portfolio"></a>My Portfolio</h2>
         <ul class="port-list">
-          <li><a href="http://www.malinanddaniel.com"><img src="img/malinanddaniel.png" class="weddingsite" alt="wedding website link"></a></li>
-          <li><a href="img/dessertcity.png"><img src="img/dessertcity.png" class="dessertsite" alt="dessert city site link"></a></li>
-          <li><a href="img/conference.png"><img src="img/conference.png" class="conferencesite" alt="conference site"></a></li>
+          <li class="col-sm-4"><a href="http://www.malinanddaniel.com"><img src="img/malinanddaniel.png" class="weddingsite" alt="wedding website link"></a></li>
+          <li class="col-sm-4"><a href="img/dessertcity.png"><img src="img/dessertcity.png" class="dessertsite" alt="dessert city site link"></a></li>
+          <li class="col-sm-4"><a href="img/conference.png"><img src="img/conference.png" class="conferencesite" alt="conference site"></a></li>
         </ul>
       </div>
       <!-- end portfolio section -->
@@ -48,14 +48,14 @@
               <li><strong>Techsoft</strong> - Jr Front End Developer</li>
                 <ul>
                   <li>Designed wireframes using balsamiq</li>
-                  <li>Developed web applications using React</li>
+                  <li>Developed web applications with React</li>
                 </ul>
               <br>
               <li><strong>SPARC</strong> - QA Analyst</li>
                 <ul>
                   <li>Tested Stuff</li>
                 </ul>
-              <br>  
+              <br>
               <li><strong>Hawkes Learning Systems</strong> - Software Content Intern</li>
                 <ul>
                   <li>Looked at stuff</li>
@@ -68,7 +68,19 @@
     <!-- contact section -->
     <div class="bg5">
       <h2><a name="contact"></a>Let's Connect!</h2>
-      <img src="img/connect.png" />
+      <img class="connecting" src="img/connect1.jpg" />
+      <img class="linkedin" src="img/linkedin.png" />
+      <img class="facebook" src="img/facebook.png" />
+      <img class="github" src="img/github.png" />
+      <form class="c-form">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" value="" name="name">
+        <label for="email">Your Email</label>
+        <input id="email" type="text" value="" name="email">
+        <label for="message">Your Message</label>
+        <textarea id="message"></textarea>
+        <input id="submit" type="submit" value="Send Email" />
+      </form>
     </div>
     <!-- end contact section -->
 
