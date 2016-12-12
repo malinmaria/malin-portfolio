@@ -7,82 +7,96 @@
   </head>
   <body>
     <!-- nav bar -->
-      <div class="nav">
-        <a href="index.html">Home</a>
-        &nbsp
-        <a href="#portfolio">Portfolio</a>
-        &nbsp
-        <a href="#experience">Experience</a>
-        &nbsp
-        <a href="#contact">Contact Me</a>
-      </div>
-      <!-- end nav bar -->
+    <div class="nav">
+      <a href="index.html">Home</a>
+      &nbsp
+      <a href="#portfolio">Portfolio</a>
+      &nbsp
+      <a href="#experience">Experience</a>
+      &nbsp
+      <a href="#contact">Contact Me</a>
+    </div>
+    <!-- end nav bar -->
 
-      <!-- home/about me section -->
-      <div class="bg1">
-        <div class="hello">
-          <img src="img/me.jpg" class="img-circle" alt="Cinque Terre">
-        </div>
-          <figcaption><b>Hi, my name is Malin. <br> I'm a front end developer in Charleston, SC.<br>
-            Have a look around to learn more about my background and experiences!</b>
-          </figcaption>
+    <!-- home/about me section -->
+    <div class="bg1">
+      <div class="hello">
+        <img src="img/me.jpg" class="img-circle" alt="Cinque Terre">
       </div>
-      <!-- end home/about me section -->
+      <figcaption><b>Hi, my name is Malin. <br> I'm a front end developer in Charleston, SC.<br>
+        Have a look around to learn more about my background and experiences!</b>
+      </figcaption>
+    </div>
+    <!-- end home/about me section -->
 
-      <!-- portfolio section -->
-      <div id="bg3" class="row">
+    <!-- portfolio section -->
+    <div id="bg3" class="container">
+      <div class="hovereffect">
         <h2><a name="portfolio"></a>My Portfolio</h2>
-        <ul class="port-list">
-          <li class="col-sm-4"><a href="http://www.malinanddaniel.com"><img src="img/malinanddaniel.png" class="weddingsite" alt="wedding website link"></a></li>
-          <li class="col-sm-4"><a href="img/dessertcity.png"><img src="img/dessertcity.png" class="dessertsite" alt="dessert city site link"></a></li>
-          <li class="col-sm-4"><a href="img/conference.png"><img src="img/conference.png" class="conferencesite" alt="conference site"></a></li>
-        </ul>
-      </div>
-      <!-- end portfolio section -->
-
-      <!-- experience section -->
-      <div class="bg4">
-        <div class="jobs">
-          <h2><a name="experience"></a>Experience</h2>
-            <ul class="jobslist">
-              <li><strong>Techsoft</strong> - Jr Front End Developer</li>
-                <ul>
-                  <li>Designed wireframes using balsamiq</li>
-                  <li>Developed web applications with React</li>
-                </ul>
-              <br>
-              <li><strong>SPARC</strong> - QA Analyst</li>
-                <ul>
-                  <li>Tested Stuff</li>
-                </ul>
-              <br>
-              <li><strong>Hawkes Learning Systems</strong> - Software Content Intern</li>
-                <ul>
-                  <li>Looked at stuff</li>
-                </ul>
-            </ul>
+        <div class="col-lg-4 col-md-6 weddingsite">
+            <img src="img/malinanddaniel.png" alt="wedding website link">
+            <div class="textoverlay">
+              <p><a href="http://www.malinanddaniel.com">This was my first website</p></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 dessertsite">
+            <a href="img/dessertcity.png"><img src="img/dessertcity.png" alt="dessert city site link"></a>
+        </div>
+        <div class="col-lg-4 col-md-6 conferencesite">
+            <a href="img/conference.png"><img src="img/conference.png" alt="conference site"></a>
+        </div>
       </div>
     </div>
-    <!-- end experience section -->
+    <!-- <ul class="port-list">
+      <li class="col-sm-4"><a href="http://www.malinanddaniel.com"><img src="img/malinanddaniel.png" class="weddingsite" alt="wedding website link"></a></li>
+      <li class="col-sm-4"><a href="img/dessertcity.png"><img src="img/dessertcity.png" class="dessertsite" alt="dessert city site link"></a></li>
+      <li class="col-sm-4"><a href="img/conference.png"><img src="img/conference.png" class="conferencesite" alt="conference site"></a></li>
+    </ul> -->
+    <!-- end portfolio section -->
 
-    <!-- contact section -->
-    <div class="bg5">
-      <h2><a name="contact"></a>Let's Connect!</h2>
-      <img class="connecting" src="img/connect1.jpg" />
-      <img class="linkedin" src="img/linkedin.png" />
-      <img class="facebook" src="img/facebook.png" />
-      <img class="github" src="img/github.png" />
-      <form class="c-form">
-        <label for="name">Your Name</label>
-        <input id="name" type="text" value="" name="name">
-        <label for="email">Your Email</label>
-        <input id="email" type="text" value="" name="email">
-        <label for="message">Your Message</label>
-        <textarea id="message"></textarea>
-        <input id="submit" type="submit" value="Send Email" />
-      </form>
+    <!-- experience section -->
+    <div class="bg4">
+      <div class="jobs">
+        <h2><a name="experience"></a>Experience</h2>
+          <ul class="jobslist">
+            <li><strong>Techsoft</strong> - Jr Front End Developer</li>
+              <ul>
+                <li>Designed wireframes using balsamiq</li>
+                <li>Developed web applications with React</li>
+              </ul>
+            <br>
+            <li><strong>SPARC</strong> - QA Analyst</li>
+              <ul>
+                <li>Tested Stuff</li>
+              </ul>
+            <br>
+            <li><strong>Hawkes Learning Systems</strong> - Software Content Intern</li>
+              <ul>
+                <li>Looked at stuff</li>
+              </ul>
+          </ul>
     </div>
-    <!-- end contact section -->
+  </div>
+  <!-- end experience section -->
+
+  <!-- contact section -->
+  <div class="bg5">
+    <h2><a name="contact"></a>Let's Connect!</h2>
+    <img class="connecting" src="img/connect1.jpg" />
+    <img class="linkedin" src="img/linkedin.png" />
+    <img class="facebook" src="img/facebook.png" />
+    <img class="github" src="img/github.png" />
+    <form class="c-form">
+      <label for="name">Your Name</label>
+      <input id="name" type="text" value="" name="name">
+      <label for="email">Your Email</label>
+      <input id="email" type="text" value="" name="email">
+      <label for="message">Your Message</label>
+      <textarea id="message"></textarea>
+      <input id="submit" type="submit" value="Send Email" />
+    </form>
+  </div>
+  <!-- end contact section -->
 
     <script src="http://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
