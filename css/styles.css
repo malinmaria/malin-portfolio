@@ -20,6 +20,12 @@ img {
   color: white;
   margin-left: 50px;
   padding-top: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f9e3f8;
+  text-decoration: underline;
 }
 
 h2, h4 {
@@ -31,7 +37,7 @@ h2, h4 {
 /*HOME*/
 
 .bg1 {
-  background: url('../bg1-6.jpg') no-repeat center center fixed;
+  background: url('../bg1.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 800px;
   margin: 0;

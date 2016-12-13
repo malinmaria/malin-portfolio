@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Home</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon2.png" />
   </head>
   <body>
 
@@ -18,16 +18,13 @@
         &nbsp
         <a href="#experience">Experience</a>
         &nbsp
-        <a href="#contact">Contact Me</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
     <!-- end nav bar -->
 
     <!-- home/about me section -->
     <div class="bg1">
-      <!-- <div class="hello">
-        <img src="img/me.jpg" class="img-circle" alt="Cinque Terre">
-      </div> -->
       <h4 class="intro"><b><h1 class="hello">Hi, my name is Malin.</h1> <br> I'm a front end developer in Baltimore, MD.<br>
         Have a look around to learn more about my background and experiences!</b>
       </h4>
@@ -39,7 +36,6 @@
       <h2><a name="portfolio"></a>Portfolio</h2>
       <div class="card-deck-wrapper">
       <div class="card-deck">
-        <!-- <div class="col-md-6 col-lg-4"> -->
           <div class="card">
             <a href="http://www.malinanddaniel.com"><img class="card-img-top img-fluid heffect" src="img/malinanddaniel.png" alt="Card image cap"></a>
             <div class="card-block">
@@ -54,8 +50,6 @@
               <a href="https://github.com/malinmaria/wedsite"><img class="github" src="img/github.png" /></a>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="col-md-6 col-lg-4"> -->
           <div class="card">
             <a href="img/dessertcity.png" alt="dessert city site link"><img class="card-img-top img-fluid heffect" src="img/dessertcity.png" alt="Card image cap"></a>
             <div class="card-block">
@@ -68,8 +62,6 @@
               <a href="https://github.com/malinmaria/MockSites/tree/master/DessertCity"><img class="github" src="img/github.png" /></a>
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="col-md-6 col-lg-4"> -->
           <div class="card">
             <a href="img/conference.png" alt="conference site"><img class="card-img-top img-fluid heffect" src="img/conference.png" alt="Card image cap"></a>
             <div class="card-block">
@@ -83,7 +75,6 @@
               <a href="https://github.com/malinmaria/bootstrap/tree/master/ConfDevSite"><img class="github" src="img/github.png" /></a>
             </div>
           </div>
-        <!-- </div> -->
       </div>
     </div>
       </div>
@@ -136,13 +127,13 @@
     <a href="https://www.linkedin.com/in/malinnemergut"><img class="linkedin" src="img/linkedin.png" /></a>
     <img class="facebook" src="img/facebook.png" />
     <a href="https://www.github.com/malinmaria"><img class="github" src="img/github.png" /></a>
-    <form class="c-form">
-      <label for="name">Your Name</label>
-      <input id="name" type="text" value="" name="name">
+    <form class="c-form" action="mailto:malin.nemergut@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name *</label>
+      <input id="name" type="text" value="" name="name" required>
       <label for="email">Your Email</label>
       <input id="email" type="text" value="" name="email">
-      <label for="message">Your Message</label>
-      <textarea id="message"></textarea>
+      <label for="message">Your Message *</label>
+      <textarea id="message" required></textarea>
       <input id="submit" type="submit" value="Send Email" />
     </form>
   </div>
