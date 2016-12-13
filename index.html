@@ -2,75 +2,87 @@
 <html>
   <head>
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
-    <!-- nav bar -->
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="nav">
-      <a href="index.html">Home</a>
-      &nbsp
-      <a href="#portfolio">Portfolio</a>
-      &nbsp
-      <a href="#experience">Experience</a>
-      &nbsp
-      <a href="#contact">Contact Me</a>
-    </div>
-  </nav>
+    <!-- nav bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="nav">
+        <a href="index.html">Home</a>
+        &nbsp
+        <a href="#portfolio">Portfolio</a>
+        &nbsp
+        <a href="#experience">Experience</a>
+        &nbsp
+        <a href="#contact">Contact Me</a>
+      </div>
+    </nav>
     <!-- end nav bar -->
 
     <!-- home/about me section -->
     <div class="bg1">
-      <div class="hello">
+      <!-- <div class="hello">
         <img src="img/me.jpg" class="img-circle" alt="Cinque Terre">
-      </div>
-      <figcaption><b>Hi, my name is Malin. <br> I'm a front end developer in Charleston, SC.<br>
+      </div> -->
+      <h4 class="intro"><b><h1>Hi, my name is Malin.</h1> <br> I'm a front end developer in Baltimore, MD.<br>
         Have a look around to learn more about my background and experiences!</b>
-      </figcaption>
+      </h4>
     </div>
     <!-- end home/about me section -->
 
     <!-- portfolio section -->
     <div id="bg3" class="container">
-      <div class="hovereffect">
-        <h2><a name="portfolio"></a>My Portfolio</h2>
-        <div class="col-lg-4 col-md-6 weddingsite">
-            <img src="img/malinanddaniel.png" alt="wedding website link">
-            <div class="textoverlay">
-              <p><a href="http://www.malinanddaniel.com">This was the first complete and live website I developed
-              for my wedding from scratch using HTML5, CSS3 and PHP. I also used AJAX to submit a form and handled
-              the response. And I learned how to set up a domain and server to host the site.
-              </p></a>
+      <h2><a name="portfolio"></a>Portfolio</h2>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <a href="http://www.malinanddaniel.com"><img class="card-img-top img-fluid heffect" src="img/malinanddaniel.png" alt="Card image cap"></a>
+            <div class="card-block">
+              <p class="card-text">This was the first complete and live website I developed from scratch.
+              I built it for my wedding to hold info about the ceremony and reception. We also had all our guests
+              visit the site so they could RSVP. I used AJAX to submit the RSVP form and handled the response.
+              And I learned how to set up a domain and server to host the site.</p>
+              <div class="btn btn-secondary">HTML5</div>
+              <div class="btn btn-secondary">CSS3</div>
+              <div class="btn btn-secondary">PHP</div>
+              <div class="btn btn-secondary">AJAX</div>
+              <img class="github" src="img/github.png" />
             </div>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-6 dessertsite">
-            <img src="img/dessertcity.png" alt="dessert city site link">
-            <div class="textoverlay">
-              <p><a href="img/dessertcity.png">This is a mock site I developed to try out different techniques using
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <a href="img/dessertcity.png" alt="dessert city site link"><img class="card-img-top img-fluid heffect" src="img/dessertcity.png" alt="Card image cap"></a>
+            <div class="card-block">
+              <p class="card-text">This is a mock site I developed to try out different techniques using
                 jQuery, as well as HTML5 and CSS3. Each section of the page is using a different technique but following
-                the theme of my made up Dessert City website.
-              </p></a>
+                the theme of my made up Dessert City website.</p>
+              <div class="btn btn-secondary">HTML5</div>
+              <div class="btn btn-secondary">CSS3</div>
+              <div class="btn btn-secondary">jQuery</div>
+              <img class="github" src="img/github.png" />
             </div>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-6 conferencesite">
-            <img src="img/conference.png" alt="conference site">
-            <div class="textoverlay">
-              <p><a href="img/conference.png">This site is developed using Bootstrap. I relied very heavily
-                on Bootstrap's built in components and styles and used very little of my own custom css.
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <a href="img/conference.png" alt="conference site"><img class="card-img-top img-fluid heffect" src="img/conference.png" alt="Card image cap"></a>
+            <div class="card-block">
+              <p class="card-text">I relied very heavily on Bootstrap's built in components and styles
+                and used very little of my own custom css while developing this mock conference site.
                 I learned how powerful and all inclusive the Bootstrap framework is and plan on using it
-                a lot more in future sites.
-              </p></a>
+                a lot more in future sites.</p>
+              <div class="btn btn-secondary">HTML5</div>
+              <div class="btn btn-secondary">CSS3</div>
+              <div class="btn btn-secondary">Bootstrap</div>
+              <img class="github" src="img/github.png" />
             </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <!-- <ul class="port-list">
-      <li class="col-sm-4"><a href="http://www.malinanddaniel.com"><img src="img/malinanddaniel.png" class="weddingsite" alt="wedding website link"></a></li>
-      <li class="col-sm-4"><a href="img/dessertcity.png"><img src="img/dessertcity.png" class="dessertsite" alt="dessert city site link"></a></li>
-      <li class="col-sm-4"><a href="img/conference.png"><img src="img/conference.png" class="conferencesite" alt="conference site"></a></li>
-    </ul> -->
+      </div>  
     <!-- end portfolio section -->
 
     <!-- experience section -->

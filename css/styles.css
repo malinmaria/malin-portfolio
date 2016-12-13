@@ -8,6 +8,7 @@ img {
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+  /*box-shadow: 0 1px 4px rgba(0,0,0,.4);*/
 }
 
 .nav {
@@ -31,7 +32,7 @@ h2, h4 {
 /*HOME*/
 
 .bg1 {
-  background: url('../bg1.jpg') no-repeat center center fixed;
+  background: url('../bg1-6.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 800px;
   margin: 0;
@@ -45,26 +46,26 @@ h2, h4 {
   height: 20%;
 }
 
-figcaption {
+.intro {
   display: block;
   position: absolute;
-  top: 59%;
-  left: 10%;
-  padding: 3px;
+  top: 30%;
+  left: 37%;
+  padding: 20px;
   color: white;
+  text-align: left;
+  /*border: 1px solid white;*/
+  /*background: rgba(255, 255, 255, 0.5);*/
 }
 
 /*PORTFOLIO*/
 
 #bg3 {
-  background-color: #27c8f9;
+  background-color: #8c3a80;
+  /*background-color: #27c8f9;*/
   background-size: cover;
   height: 800px;
   margin-top: 0;
-}
-.port-list li {
-  display: inline-block;
-  z-index: 5;
 }
 
 .weddingsite,
@@ -74,34 +75,20 @@ figcaption {
   width: 350px;
   left: 10%;
   border: 5px solid #000;
-  /*background-color: #000;*/
   padding: 0;
   margin: 20px;
 }
 
-.textoverlay {
-  background: rgba(0, 0, 0, .8);
-  color: white;
-  padding: 5px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 345px;
-  height: 180px;
-  opacity: 0;
-  transition: opacity 500ms;
+.card {
+  margin-top: 50px;
+  /*border: 2px solid #000;*/
+}
+.card-block {
+  border-top: 2px solid #000;
 }
 
-a,
-a:hover {
-  color: white;
-  text-decoration: none;
-}
-.weddingsite:hover .textoverlay,
-.dessertsite:hover .textoverlay,
-.conferencesite:hover .textoverlay {
-  opacity: 1;
+.btn-info {
+  margin-top: 5px;
 }
 
 /*EXPERIENCE*/
@@ -113,20 +100,21 @@ a:hover {
 }
 
 .jobs h2 {
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  clear: both;
-  left: 85px;
+  position: relative;;
+  text-align: center;
+  /*height: 50px;*/
+  /*width: 50px;*/
+  /*clear: both;*/
+  /*left: 85px;*/
 }
 
 .jobs {
   border-radius: 25px;
   position: relative;
   height: 500px;
-  width: 350px;
+  width: 850px;
   top: 150px;
-  left: 550px;
+  left: 250px;
   border-radius: 2px solid white;
   opacity: .8;
   background-color: white;
