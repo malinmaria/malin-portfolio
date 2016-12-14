@@ -158,9 +158,14 @@ textarea {
   height: 150px;
 }
 
+input:valid {
+  box-shadow: 0 0 3px 1px green;
+}
+
 #submit {
   width: 100px;
   margin-top: 5px;
+  box-shadow: none;
 }
 
 .linkedin,
