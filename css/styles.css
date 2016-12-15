@@ -180,3 +180,25 @@ input:valid {
 .linkedin {
   margin-left: 44%;
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .jobs {
+        width: 90%;
+        left: 5%
+    }
+  }
+
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      .jobs {
+          width: 90%;
+          left: 5%
+      }
+  }
